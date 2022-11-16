@@ -16,6 +16,11 @@
 / {
     combos {
         compatible = "zmk,combos";
+
+        new_combo {
+            bindings = <&kp TAB>;
+            key-positions = <4 5>;
+        };
     };
 
     keymap {
