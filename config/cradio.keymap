@@ -38,10 +38,10 @@
 
         nav {
             bindings = <
- &kp LSHIFT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans    &trans    &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-  &kp LCTRL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans    &kp LEFT_ARROW     &kp DOWN_ARROW          &kp UP_ARROW        &kp RIGHT_ARROW
-     &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET         &kp LESS_THAN       &kp GREATER_THAN
-                                               &trans  &trans  &kp LALT          &kp LGUI
+     &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &none      &none    &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+ &kp LCTRL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &none  &kp LSHFT    &kp LEFT_ARROW     &kp DOWN_ARROW          &kp UP_ARROW        &kp RIGHT_ARROW
+     &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &none      &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET         &kp LESS_THAN       &kp GREATER_THAN
+                                               &none   &none   &kp LALT          &kp LGUI
             >;
         };
 
