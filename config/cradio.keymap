@@ -19,13 +19,8 @@
         compatible = "zmk,combos";
 
         tab {
-            bindings = <&kp TAB>;
+            bindings = <&kp ESC>;
             key-positions = <5 4>;
-        };
-
-        new_combo {
-            bindings = <&mo 3>;
-            key-positions = <31 32>;
         };
     };
 
