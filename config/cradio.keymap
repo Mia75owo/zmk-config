@@ -28,19 +28,19 @@
 
         default_layer {
             bindings = <
-       &kp Q        &kp W       &kp F       &kp P        &kp B         &kp J       &kp L       &kp U         &kp Y  &kp SEMICOLON
- &mt LCTRL A  &mt LSHFT R  &mt LGUI S  &mt LALT T        &kp G         &kp M  &mt RALT N  &mt RGUI E  &mt RSHIFT I    &mt RCTRL O
-       &kp Z        &kp X       &kp C       &kp D        &kp V         &kp K       &kp H   &kp COMMA       &kp DOT      &kp SLASH
-                                        &kp SPACE  &lt 2 ENTER  &lt 1 ESCAPE    &kp BSPC
+      &kp Q       &kp W         &kp F        &kp P        &kp B        &kp J        &kp L         &kp U       &kp Y  &kp SEMICOLON
+ &mt LGUI A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T        &kp G        &kp M  &mt LCTRL N  &mt RSHIFT E  &mt LALT I     &mt LGUI O
+      &kp Z       &kp X         &kp C        &kp D        &kp V        &kp K        &kp H     &kp COMMA     &kp DOT      &kp SLASH
+                                           &kp TAB  &lt 1 SPACE  &lt 1 ENTER     &kp BSPC
             >;
         };
 
         nav {
             bindings = <
- &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-    &kp LCTRL    &kp LSHIFT        &kp LGUI        &kp LALT        &trans        &trans      &kp RALT         &kp RGUI    &kp RSHIFT     &kp RCTRL
-       &trans        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW        &trans        &trans  &kp UP_ARROW  &kp RIGHT_ARROW        &trans        &trans
-                                                     &trans        &trans        &trans        &trans
+ &kp LSHIFT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans    &trans    &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+  &kp LCTRL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans    &kp LEFT_ARROW     &kp DOWN_ARROW          &kp UP_ARROW        &kp RIGHT_ARROW
+     &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET         &kp LESS_THAN       &kp GREATER_THAN
+                                               &trans  &trans  &kp LALT          &kp LGUI
             >;
         };
 
