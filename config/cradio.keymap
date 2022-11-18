@@ -34,18 +34,18 @@
 
         default_layer {
             bindings = <
-      &kp Q       &kp W         &kp F        &kp P        &kp B        &kp J        &kp L         &kp U       &kp Y  &kp SEMICOLON
- &mt LGUI A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T        &kp G        &kp M  &mt LCTRL N  &mt RSHIFT E  &mt LALT I     &mt LGUI O
-      &kp Z       &kp X         &kp C        &kp D        &kp V        &kp K        &kp H     &kp COMMA     &kp DOT      &kp SLASH
-                                         &lt 3 TAB  &lt 1 SPACE  &lt 2 ENTER     &kp BSPC
+       &kp Q       &kp W         &kp F       &kp P        &kp B        &kp J       &kp L         &kp U       &kp Y  &kp SEMICOLON
+ &mt LCTRL A  &mt LALT R  &mt LSHIFT S  &mt LGUI T        &kp G        &kp M  &mt LGUI N  &mt RSHIFT E  &mt LALT I    &mt LCTRL O
+       &kp Z       &kp X         &kp C       &kp D        &kp V        &kp K       &kp H     &kp COMMA     &kp DOT      &kp SLASH
+                                         &lt 3 TAB  &lt 1 SPACE  &lt 2 ENTER    &kp BSPC
             >;
         };
 
         nav {
             bindings = <
- &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &none   &none  &kp DOWN_ARROW  &kp RIGHT_ARROW   &none  &kp LEFT_BRACE   &kp RIGHT_BRACE
- &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LCTRL   &none       &kp LSHFT            &none   &none           &none             &none
- &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &none   &none    &kp UP_ARROW   &kp LEFT_ARROW   &none   &kp LESS_THAN  &kp GREATER_THAN
+ &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &kp   &none  &kp DOWN_ARROW  &kp RIGHT_ARROW           &none  &kp LEFT_BRACE   &kp RIGHT_BRACE
+ &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LCTRL   &none       &kp LSHFT            &none  &kp LEFT_SHIFT             &kp               &kp
+ &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9        &kp   &none    &kp UP_ARROW   &kp LEFT_ARROW           &none   &kp LESS_THAN  &kp GREATER_THAN
                                                &none   &none        &kp LGUI         &kp LALT
             >;
         };
