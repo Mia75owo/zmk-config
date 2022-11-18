@@ -43,18 +43,18 @@
 
         nav {
             bindings = <
- &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &none   &none      &none    &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
- &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LCTRL   &none  &kp LSHFT    &kp LEFT_ARROW     &kp DOWN_ARROW          &kp UP_ARROW        &kp RIGHT_ARROW
- &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &none   &none      &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET         &kp LESS_THAN       &kp GREATER_THAN
-                                               &none   &none   &kp LGUI          &kp LALT
+ &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &none   &none  &kp DOWN_ARROW  &kp RIGHT_ARROW   &none  &kp LEFT_BRACE   &kp RIGHT_BRACE
+ &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LCTRL   &none       &kp LSHFT            &none   &none           &none             &none
+ &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &none   &none    &kp UP_ARROW   &kp LEFT_ARROW   &none   &kp LESS_THAN  &kp GREATER_THAN
+                                               &none   &none        &kp LGUI         &kp LALT
             >;
         };
 
         symbols {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans     &kp     &kp  &trans  &trans  &trans  &trans  &trans  &trans
+    &kp     &kp     &kp     &kp     &kp  &trans  &trans  &trans  &trans  &trans
+    &kp     &kp     &kp     &kp     &kp  &trans  &trans  &trans  &trans  &trans
                          &trans  &trans  &trans  &trans
             >;
         };
