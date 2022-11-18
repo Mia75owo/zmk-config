@@ -52,10 +52,10 @@
 
         symbols {
             bindings = <
-          &trans  &trans                    &kp          &kp         &trans     &trans      &trans          &trans  &trans  &trans
- &kp EXCLAMATION  &kp AT  &mt LSHFT NON_US_HASH  &kp PERCENT  &kp AMPERSAND  &kp CARET  &kp DOLLAR  &mt LSHFT STAR     &kp     &kp
-             &kp     &kp                    &kp          &kp            &kp     &trans      &trans          &trans  &trans  &trans
-                                                         &kp            &kp     &trans      &trans
+          &trans  &trans                  &none             &none         &trans     &trans           &trans          &trans     &trans     &trans
+ &kp EXCLAMATION  &kp AT  &mt LSHFT NON_US_HASH       &kp PERCENT  &kp AMPERSAND  &kp CARET       &kp DOLLAR  &mt LSHFT STAR  &kp MINUS  &kp EQUAL
+   &kp BACKSLASH   &none                  &none    &kp LEFT_BRACE      &kp GRAVE     &trans  &kp RIGHT_BRACE          &trans     &trans     &trans
+                                                 &kp SINGLE_QUOTE  &kp SEMICOLON     &trans           &trans
             >;
         };
 
