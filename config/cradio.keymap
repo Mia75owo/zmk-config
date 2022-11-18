@@ -20,7 +20,7 @@
 
         tab {
             bindings = <&kp ESC>;
-            key-positions = <5 4>;
+            key-positions = <23 26>;
         };
 
         new_combo {
