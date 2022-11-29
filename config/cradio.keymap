@@ -53,8 +53,8 @@
         symbols {
             bindings = <
            &none   &none             &none  &kp LEFT_PARENTHESIS          &none      &none  &kp RIGHT_PARENTHESIS              &none      &none      &none
- &kp EXCLAMATION  &kp AT    &mt LSHFT HASH           &kp PERCENT  &kp AMPERSAND  &kp CARET             &kp DOLLAR     &mt LSHFT STAR  &kp MINUS  &kp EQUAL
-   &kp BACKSLASH   &none  &kp LEFT_BRACKET        &kp LEFT_BRACE      &kp GRAVE  &kp TILDE        &kp RIGHT_BRACE  &kp RIGHT_BRACKET      &none      &none
+ &kp EXCLAMATION  &kp AT    &mt LSHFT HASH           &kp PERCENT  &kp AMPERSAND  &kp CARET             &kp DOLLAR     &mt LSHFT STAR  &kp MINUS   &kp PLUS
+   &kp BACKSLASH   &none  &kp LEFT_BRACKET        &kp LEFT_BRACE      &kp GRAVE  &kp TILDE        &kp RIGHT_BRACE  &kp RIGHT_BRACKET      &none  &kp EQUAL
                                                 &kp SINGLE_QUOTE  &kp SEMICOLON      &none                  &none
             >;
         };
