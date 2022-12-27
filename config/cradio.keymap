@@ -70,9 +70,9 @@
 
         Gaming {
             bindings = <
-      &kp ESC         &kp E         &kp W  &kp NUMBER_2  &kp NUMBER_3   &none   &none   &none   &none   &to 0
-      &kp TAB         &kp A         &kp S         &kp D  &kp NUMBER_4   &none   &none   &none   &none   &none
- &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8         &kp F  &kp NUMBER_5   &none   &none   &none   &none   &none
+      &kp ESC         &kp E         &kp W  &kp NUMBER_1  &kp NUMBER_2   &none   &none   &none   &none   &to 0
+      &kp TAB         &kp A         &kp S         &kp D  &kp NUMBER_3   &none   &none   &none   &none   &none
+ &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7         &kp F  &kp NUMBER_4   &none   &none   &none   &none   &none
                                            &kp NUMBER_8     &kp SPACE   &none   &none
             >;
         };
