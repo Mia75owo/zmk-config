@@ -23,14 +23,19 @@
             key-positions = <23 26>;
         };
 
-        new_combo {
+        game {
             bindings = <&to 4>;
             key-positions = <20 29>;
         };
 
-        new_combo {
+        terraria {
             bindings = <&to 5>;
-            key-positions = <10 19>;
+            key-positions = <0 9>;
+        };
+
+        satisfactory {
+            bindings = <&to 6>;
+            key-positions = <0 29>;
         };
     };
 
@@ -88,6 +93,24 @@
  &kp LEFT_SHIFT    &kp A   &kp S   &kp D     &kp F2   &none   &none   &none   &none   &none
       &kp LCTRL    &kp H   &kp B   &kp R      &kp M   &none   &none   &none   &none   &none
                                    &kp E  &kp SPACE   &none   &none
+            >;
+        };
+
+        Satisfactory {
+            bindings = <
+    &kp TAB   &kp Q   &kp W      &kp E      &kp B   &none   &none   &none   &none   &none
+ &kp LSHIFT   &kp A   &kp S      &kp D      &kp F   &none   &none   &none   &none   &none
+      &kp C   &kp R   &kp V  &kp LCTRL      &kp M   &none   &none   &none   &none   &none
+                                 &mo 7  &kp SPACE   &none   &none
+            >;
+        };
+
+        Satisfactory2 {
+            bindings = <
+ &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6         &kp O   &kp X   &none   &none   &none   &none   &none
+ &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0   &kp H   &none   &none   &none   &none   &none
+ &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9         &kp N   &none   &none   &none   &none   &none   &none
+                                                  &none   &none   &none   &none
             >;
         };
     };
