@@ -23,18 +23,13 @@
             key-positions = <23 26>;
         };
 
-        game {
-            bindings = <&to 4>;
+        satisfactory {
+            bindings = <&to 6>;
             key-positions = <20 29>;
         };
 
-        terraria {
-            bindings = <&to 5>;
-            key-positions = <0 9>;
-        };
-
-        satisfactory {
-            bindings = <&to 6>;
+        mc {
+            bindings = <&to 4>;
             key-positions = <0 29>;
         };
     };
