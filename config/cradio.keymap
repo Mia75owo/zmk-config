@@ -44,73 +44,73 @@
 
         default_layer {
             bindings = <
-       &kp Q       &kp W         &kp F       &kp P        &kp B        &kp J       &kp L         &kp U       &kp Y  &kp SEMICOLON
- &mt LCTRL A  &mt LALT R  &mt LSHIFT S  &mt LGUI T        &kp G        &kp M  &mt LGUI N  &mt RSHIFT E  &mt LALT I    &mt LCTRL O
-       &kp Z       &kp X         &kp C       &kp D        &kp V        &kp K       &kp H     &kp COMMA     &kp DOT      &kp SLASH
-                                         &lt 3 TAB  &lt 1 SPACE  &lt 2 ENTER    &kp BSPC
+      &kp Q       &kp W         &kp F       &kp P        &kp B        &kp J       &kp L         &kp U       &kp Y  &kp SEMICOLON
+&mt LCTRL A  &mt LALT R  &mt LSHIFT S  &mt LGUI T        &kp G        &kp M  &mt LGUI N  &mt RSHIFT E  &mt LALT I    &mt LCTRL O
+      &kp Z       &kp X         &kp C       &kp D        &kp V        &kp K       &kp H     &kp COMMA     &kp DOT      &kp SLASH
+                                        &lt 3 TAB  &lt 1 SPACE  &lt 2 ENTER    &kp BSPC
             >;
         };
 
         nav {
             bindings = <
- &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6         &none   &none  &kp DOWN_ARROW  &kp RIGHT_ARROW           &none  &kp LEFT_BRACE   &kp RIGHT_BRACE
- &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0   &none           &none         &kp LGUI  &kp LEFT_SHIFT    &kp LEFT_ALT         &kp LCTRL
- &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9         &none   &none    &kp UP_ARROW   &kp LEFT_ARROW           &none   &kp LESS_THAN  &kp GREATER_THAN
-                                                  &none   &none           &none            &none
+&kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6         &none  &none  &kp DOWN_ARROW  &kp RIGHT_ARROW           &none  &kp LEFT_BRACE   &kp RIGHT_BRACE
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &none           &none         &kp LGUI  &kp LEFT_SHIFT    &kp LEFT_ALT         &kp LCTRL
+&kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9         &none  &none    &kp UP_ARROW   &kp LEFT_ARROW           &none   &kp LESS_THAN  &kp GREATER_THAN
+                                                 &none  &none           &none            &none
             >;
         };
 
         symbols {
             bindings = <
-           &none   &none             &none  &kp LEFT_PARENTHESIS          &none      &none  &kp RIGHT_PARENTHESIS              &none      &none      &none
- &kp EXCLAMATION  &kp AT    &mt LSHFT HASH           &kp PERCENT  &kp AMPERSAND  &kp CARET             &kp DOLLAR     &mt LSHFT STAR  &kp MINUS   &kp PLUS
-   &kp BACKSLASH   &none  &kp LEFT_BRACKET        &kp LEFT_BRACE      &kp GRAVE  &kp TILDE        &kp RIGHT_BRACE  &kp RIGHT_BRACKET      &none  &kp EQUAL
-                                                &kp SINGLE_QUOTE  &kp SEMICOLON      &none                  &none
+          &none   &none             &none  &kp LEFT_PARENTHESIS          &none      &none  &kp RIGHT_PARENTHESIS              &none      &none      &none
+&kp EXCLAMATION  &kp AT    &mt LSHFT HASH           &kp PERCENT  &kp AMPERSAND  &kp CARET             &kp DOLLAR     &mt LSHFT STAR  &kp MINUS   &kp PLUS
+  &kp BACKSLASH   &none  &kp LEFT_BRACKET        &kp LEFT_BRACE      &kp GRAVE  &kp TILDE        &kp RIGHT_BRACE  &kp RIGHT_BRACKET      &none  &kp EQUAL
+                                               &kp SINGLE_QUOTE  &kp SEMICOLON      &none                  &none
             >;
         };
 
         bluetooth {
             bindings = <
-  &none   &none   &none   &none   &none   &none       &none       &none   &none   &none
-  &none   &none   &none   &none   &none   &none  &bt BT_NXT  &bt BT_CLR   &none   &none
-  &none   &none   &none   &none   &none   &none       &none       &none   &none   &none
-                          &none   &none   &none       &none
+&none  &none  &none  &none  &none  &none       &none       &none  &none  &none
+&none  &none  &none  &none  &none  &none  &bt BT_NXT  &bt BT_CLR  &none  &none
+&none  &none  &none  &none  &none  &none       &none       &none  &none  &none
+                     &none  &none  &none       &none
             >;
         };
 
-        Gaming {
+        Minecraft {
             bindings = <
-      &kp ESC         &kp E         &kp W  &kp NUMBER_1  &kp NUMBER_2   &none   &none   &none   &none   &to 0
-      &kp TAB         &kp A         &kp S         &kp D  &kp NUMBER_3   &none   &none   &none   &none   &none
- &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7         &kp F  &kp NUMBER_4   &none   &none   &none   &none   &none
-                                           &kp NUMBER_8     &kp SPACE   &none   &none
+    &kp Q  &kp F3  &kp F4  &kp E    &kp TAB  &kp  &kp  &kp  &kp  &kp
+&kp LCTRL   &kp A   &kp W  &kp D      &kp T  &kp  &kp  &kp  &kp  &kp
+&kp LSHFT  &kp F7   &kp S  &kp M     &kp F2  &kp  &kp  &kp  &kp  &kp
+                           &mo 5  &kp SPACE  &kp  &kp
             >;
         };
 
-        Terraria {
+        Minecraft2 {
             bindings = <
-     &kp ESCAPE  &kp TAB   &kp W   &kp T     &kp F1   &none   &none   &none   &none   &to 0
- &kp LEFT_SHIFT    &kp A   &kp S   &kp D     &kp F2   &none   &none   &none   &none   &none
-      &kp LCTRL    &kp H   &kp B   &kp R      &kp M   &none   &none   &none   &none   &none
-                                   &kp E  &kp SPACE   &none   &none
+&kp NUMBER_4  &kp NUMBER_5  &kp N6    &kp DOT  &kp  &kp  &kp  &kp  &kp  &kp
+      &kp N1        &kp N2  &kp N3  &kp COMMA  &kp  &kp  &kp  &kp  &kp  &kp
+      &kp N7        &kp N8  &kp N9        &kp  &kp  &kp  &kp  &kp  &kp  &kp
+                                          &kp  &kp  &kp  &kp
             >;
         };
 
         Satisfactory {
             bindings = <
-    &kp TAB   &kp Q   &kp W      &kp E      &kp B   &none   &none   &none   &none   &to 0
- &kp LSHIFT   &kp A   &kp S      &kp D      &kp F   &none   &none   &none   &none   &none
-      &kp C   &kp R   &kp V  &kp LCTRL      &kp M   &none   &none   &none   &none   &none
-                                 &mo 7  &kp SPACE   &none   &none
+   &kp TAB  &kp Q  &kp W      &kp E      &kp B  &none  &none  &none  &none  &to 0
+&kp LSHIFT  &kp A  &kp S      &kp D      &kp F  &none  &none  &none  &none  &none
+     &kp C  &kp R  &kp V  &kp LCTRL      &kp M  &none  &none  &none  &none  &none
+                              &mo 7  &kp SPACE  &none  &none
             >;
         };
 
         Satisfactory2 {
             bindings = <
- &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6         &kp O    &kp X   &none   &none   &none   &none   &none
- &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0    &kp H   &none   &none   &none   &none   &none
- &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9         &kp N  &kp ESC   &none   &none   &none   &none   &none
-                                                  &none    &none   &none   &none
+&kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6         &kp O    &kp X  &none  &none  &none  &none  &none
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0    &kp H  &none  &none  &none  &none  &none
+&kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9         &kp N  &kp ESC  &none  &none  &none  &none  &none
+                                                 &none    &none  &none  &none
             >;
         };
     };
