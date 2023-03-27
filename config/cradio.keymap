@@ -80,10 +80,10 @@
 
         Minecraft {
             bindings = <
-    &kp Q  &kp F3  &kp F4  &kp E    &kp TAB  &kp J  &kp L      &kp U    &kp Y     &to 0
-&kp LCTRL   &kp A   &kp W  &kp D      &kp T  &kp M  &kp N      &kp E    &kp I     &kp O
-&kp LSHFT  &kp F7   &kp S  &kp M      &kp H  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH
-                           &mo 5  &kp SPACE  &kp C  &none
+    &kp Q  &kp F3  &kp F4      &kp E    &kp TAB  &kp PAGE_DOWN            &kp L  &kp KP_MINUS  &kp U  &to 0
+&kp LCTRL   &kp A   &kp W      &kp D      &kp T          &kp M            &kp H         &kp V  &kp N  &kp C
+&kp LSHFT  &kp F7   &kp S  &kp RCTRL      &kp H    &kp PAGE_UP  &kp KP_MULTIPLY         &kp I  &kp R  &kp O
+                               &mo 5  &kp SPACE          &kp C            &none
             >;
         };
 
