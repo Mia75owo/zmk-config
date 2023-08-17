@@ -10,7 +10,6 @@
 
 &mt {
     flavor = "tap-preferred";
-
     tapping_term_ms = <100>;
 };
 
@@ -71,10 +70,10 @@
 
         bluetooth {
             bindings = <
-&none  &none  &none  &none  &none  &none       &none       &none  &none  &none
-&none  &none  &none  &none  &none  &none  &bt BT_NXT  &bt BT_CLR  &none  &none
-&none  &none  &none  &none  &none  &none       &none       &none  &none  &none
-                     &none  &none  &none       &none
+&bt BT_SEL 4  &none  &none  &none  &none  &none       &none       &none  &none  &none
+       &none  &none  &none  &none  &none  &none  &bt BT_NXT  &bt BT_CLR  &none  &none
+       &none  &none  &none  &none  &none  &none       &none       &none  &none  &none
+                            &none  &none  &none       &none
             >;
         };
 
