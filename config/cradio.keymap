@@ -43,10 +43,10 @@
 
         default_layer {
             bindings = <
-      &kp Q       &kp W         &kp F       &kp P        &kp B        &kp J       &kp L         &kp U       &kp Y  &kp SEMICOLON
-&mt LCTRL A  &mt LALT R  &mt LSHIFT S  &mt LGUI T        &kp G        &kp M  &mt LGUI N  &mt RSHIFT E  &mt LALT I    &mt LCTRL O
-      &kp Z       &kp X         &kp C       &kp D        &kp V        &kp K       &kp H     &kp COMMA     &kp DOT      &kp SLASH
-                                        &lt 3 TAB  &lt 1 SPACE  &lt 2 ENTER    &kp BSPC
+      &kp Q       &kp W         &kp F       &kp P        &kp B        &kp J            &kp L         &kp U       &kp Y  &kp SEMICOLON
+&mt LCTRL A  &mt LALT R  &mt LSHIFT S  &mt LGUI T        &kp G        &kp M       &mt LGUI N  &mt RSHIFT E  &mt LALT I    &mt LCTRL O
+      &kp Z       &kp X         &kp C       &kp D        &kp V        &kp K            &kp H     &kp COMMA     &kp DOT      &kp SLASH
+                                        &lt 3 TAB  &lt 1 SPACE  &lt 2 ENTER  &lt 3 BACKSPACE
             >;
         };
 
@@ -70,19 +70,19 @@
 
         bluetooth {
             bindings = <
-		&bt BT_SEL 4  &bt BT_SEL 5  &bt BT_SEL 6  &none  &none  &none       &none       &none  &none  &none
-       &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 0  &none  &none  &bt BT_NXT  &bt BT_CLR  &none  &none
-       &bt BT_SEL 7  &bt BT_SEL 8  &bt BT_SEL 9  &none  &none  &none       &none       &none  &none  &none
-                            &none  &none  &none       &none
+&bt BT_SEL 4  &bt BT_SEL 5  &bt BT_SEL 6         &none  &none       &none  &none  &none  &none  &none
+&bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 0  &none       &none  &none  &none  &none  &none
+&bt BT_SEL 7  &bt BT_SEL 8  &bt BT_SEL 9         &none  &none       &none  &none  &none  &none  &none
+                                                 &none  &none  &bt BT_CLR  &none
             >;
         };
 
         Minecraft {
             bindings = <
-    &kp Q  &kp F3  &kp LEFT_ALT      &kp E    &kp TAB  &kp PAGE_DOWN            &kp L  &kp KP_MINUS  &kp U  &to 0
-&kp LCTRL   &kp A         &kp W      &kp D      &kp T          &kp M            &kp H         &kp V  &kp N  &kp C
-&kp LSHFT  &kp F7         &kp S  &kp RCTRL      &kp H    &kp PAGE_UP  &kp KP_MULTIPLY         &kp I  &kp R  &kp O
-                                     &mo 5  &kp SPACE          &kp C            &none
+         &kp Q  &kp F3  &kp LEFT_ALT      &kp E    &kp TAB  &kp PAGE_DOWN            &kp L  &kp KP_MINUS  &kp U  &to 0
+&kp LEFT_SHIFT   &kp A         &kp W      &kp D      &kp T          &kp M            &kp H         &kp V  &kp N  &kp C
+     &kp LCTRL  &kp F7         &kp S  &kp RCTRL      &kp H    &kp PAGE_UP  &kp KP_MULTIPLY         &kp I  &kp R  &kp O
+                                          &mo 5  &kp SPACE          &kp C            &none
             >;
         };
 
@@ -110,6 +110,15 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0    &kp H  &none  &none  &none  &none  &none
 &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9         &kp N  &kp ESC  &none  &none  &none  &none  &none
                                                  &none    &none  &none  &none
+            >;
+        };
+
+        function_keys {
+            bindings = <
+&kp F4  &kp F5  &kp F6    &none    &none  &none  &none  &none  &none  &none
+&kp F1  &kp F2  &kp F3  &kp F10    &none  &none  &none  &none  &none  &none
+&kp F7  &kp F8  &kp F9    &none    &none  &none  &none  &none  &none  &none
+                        &kp F11  &kp F12  &none  &none
             >;
         };
     };
