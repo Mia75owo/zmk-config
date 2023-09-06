@@ -33,8 +33,8 @@
         };
 
         new_combo {
-            bindings = <&kp CAPSLOCK>;
-            key-positions = <12 17>;
+            bindings = <&to 9>;
+            key-positions = <9 20>;
         };
     };
 
@@ -124,10 +124,10 @@
 
         layer_9 {
             bindings = <
-&kp U           &kp Q  &kp TAB  &kp E  &kp Z      &kp DOWN      &kp RIGHT  &kp PAGE_DOWN  &kp J      &kp T
-&kp LEFT_SHIFT  &kp A  &kp W    &kp D  &kp R      &kp P         &kp F12    &kp HOME       &kp L      &kp G
-&kp LCTRL       &kp X  &kp S    &kp N  &kp F      &kp UP_ARROW  &kp LEFT   &kp PAGE_UP    &kp EQUAL  &kp H
-                                &kp M  &kp SPACE  &kp Y         &kp V
+&kp U           &kp Q  &kp TAB  &kp E   &kp Z      &kp DOWN      &kp RIGHT  &kp PAGE_DOWN  &kp J      &kp T
+&kp LEFT_SHIFT  &kp A  &kp W    &kp D   &kp R      &kp P         &kp F12    &kp HOME       &kp L      &kp G
+&kp LCTRL       &kp X  &kp S    &kp N   &kp F      &kp UP_ARROW  &kp LEFT   &kp PAGE_UP    &kp EQUAL  &kp H
+                                &mo 10  &kp SPACE  &kp Y         &kp V
             >;
         };
 
