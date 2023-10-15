@@ -97,9 +97,9 @@
 
         Satisfactory {
             bindings = <
-&kp TAB     &kp Q  &kp W  &kp E      &kp B      &none  &none  &none  &none  &to 0
-&kp LSHIFT  &kp A  &kp S  &kp D      &kp F      &none  &none  &none  &none  &none
-&kp C       &kp R  &kp V  &kp LCTRL  &kp M      &none  &none  &none  &none  &none
+&kp TAB     &kp Q  &kp W  &kp E      &kp B      &kp T  &kp Z  &kp U  &kp I      &to 0
+&kp LSHIFT  &kp A  &kp S  &kp D      &kp F      &kp G  &kp H  &kp J  &kp K      &kp L
+&kp C       &kp R  &kp V  &kp LCTRL  &kp M      &kp Y  &kp X  &kp N  &kp COMMA  &kp PERIOD
                           &mo 7      &kp SPACE  &none  &none
             >;
         };
