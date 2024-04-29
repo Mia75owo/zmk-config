@@ -23,22 +23,22 @@
         };
 
         satisfactory {
-            bindings = <&to 6>;
+            bindings = <&to 5>;
             key-positions = <20 29>;
         };
 
         mc {
-            bindings = <&to 4>;
+            bindings = <&to 3>;
             key-positions = <0 29>;
         };
 
         new_combo {
-            bindings = <&to 9>;
+            bindings = <&to 8>;
             key-positions = <9 20>;
         };
 
         mc1 {
-            bindings = <&to 4>;
+            bindings = <&to 3>;
             key-positions = <0 4>;
         };
     };
@@ -48,10 +48,10 @@
 
         default_layer {
             bindings = <
-&kp Q        &kp W       &kp F         &kp P       &kp B        &kp J        &kp L            &kp U         &kp Y       &kp SEMICOLON
-&mt LCTRL A  &mt LALT R  &mt LSHIFT S  &mt LGUI T  &kp G        &kp M        &mt LGUI N       &mt RSHIFT E  &mt LALT I  &mt LCTRL O
-&kp Z        &kp X       &kp C         &kp D       &kp V        &kp K        &kp H            &kp COMMA     &kp DOT     &kp SLASH
-                                       &lt 8 TAB   &lt 1 SPACE  &lt 2 ENTER  &lt 3 BACKSPACE
+&kp Q        &kp W       &kp F         &kp P       &kp B        &kp J        &kp L          &kp U         &kp Y       &kp SEMICOLON
+&mt LCTRL A  &mt LALT R  &mt LSHIFT S  &mt LGUI T  &kp G        &kp M        &mt LGUI N     &mt RSHIFT E  &mt LALT I  &mt LCTRL O
+&kp Z        &kp X       &kp C         &kp D       &kp V        &kp K        &kp H          &kp COMMA     &kp DOT     &kp SLASH
+                                       &lt 7 TAB   &lt 1 SPACE  &lt 2 ENTER  &kp BACKSPACE
             >;
         };
 
@@ -73,21 +73,12 @@
             >;
         };
 
-        keyboard_settings {
-            bindings = <
-&bt BT_SEL 4  &bt BT_SEL 5  &bt BT_SEL 6  &none         &none        &none       &none  &none  &none  &none
-&bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 0  &none        &none       &none  &none  &none  &none
-&bt BT_SEL 7  &bt BT_SEL 8  &bt BT_SEL 9  &none         &none        &none       &none  &none  &none  &none
-                                          &none         &bootloader  &bt BT_CLR  &none
-            >;
-        };
-
         Minecraft {
             bindings = <
 &kp Q           &kp F3  &kp LEFT_ALT  &kp E      &kp TAB    &kp PAGE_DOWN  &kp L            &kp KP_MINUS  &kp U  &to 0
 &kp LEFT_SHIFT  &kp A   &kp W         &kp D      &kp T      &kp M          &kp H            &kp V         &kp N  &kp C
 &kp LCTRL       &kp F7  &kp S         &kp RCTRL  &kp H      &kp PAGE_UP    &kp KP_MULTIPLY  &kp I         &kp R  &kp O
-                                      &mo 5      &kp SPACE  &kp C          &kp ENTER
+                                      &mo 4      &kp SPACE  &kp C          &kp ENTER
             >;
         };
 
@@ -105,7 +96,7 @@
 &kp TAB     &kp Q  &kp V  &kp E      &kp B      &kp T  &kp Z      &kp U  &kp I      &to 0
 &kp LSHIFT  &kp A  &kp W  &kp D      &kp F      &kp G  &kp H      &kp J  &kp K      &kp L
 &kp C       &kp R  &kp S  &kp LCTRL  &kp M      &kp Y  &kp X      &kp N  &kp COMMA  &kp PERIOD
-                          &mo 7      &kp SPACE  &none  &kp ENTER
+                          &mo 6      &kp SPACE  &none  &kp ENTER
             >;
         };
 
@@ -129,10 +120,10 @@
 
         layer_9 {
             bindings = <
-&kp U           &kp Q  &kp TAB  &kp E   &kp Z      &kp DOWN      &kp RIGHT  &kp PAGE_DOWN  &kp J      &kp T
-&kp LEFT_SHIFT  &kp A  &kp W    &kp D   &kp R      &kp P         &kp F12    &kp HOME       &kp L      &kp G
-&kp LCTRL       &kp X  &kp S    &kp N   &kp F      &kp UP_ARROW  &kp LEFT   &kp PAGE_UP    &kp EQUAL  &kp H
-                                &mo 10  &kp SPACE  &kp Y         &kp V
+&kp U           &kp Q  &kp TAB  &kp E  &kp Z      &kp DOWN      &kp RIGHT  &kp PAGE_DOWN  &kp J      &kp T
+&kp LEFT_SHIFT  &kp A  &kp W    &kp D  &kp R      &kp P         &kp F12    &kp HOME       &kp L      &kp G
+&kp LCTRL       &kp X  &kp S    &kp N  &kp F      &kp UP_ARROW  &kp LEFT   &kp PAGE_UP    &kp EQUAL  &kp H
+                                &mo 9  &kp SPACE  &kp Y         &kp V
             >;
         };
 
