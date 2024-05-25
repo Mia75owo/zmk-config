@@ -41,6 +41,11 @@
             bindings = <&to 3>;
             key-positions = <0 4>;
         };
+
+        ED {
+            bindings = <&to 9>;
+            key-positions = <5 9>;
+        };
     };
 
     keymap {
