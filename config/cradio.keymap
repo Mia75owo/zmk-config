@@ -22,31 +22,6 @@
             key-positions = <23 26>;
         };
 
-        satisfactory {
-            bindings = <&to 0>;
-            key-positions = <20 29>;
-        };
-
-        mc {
-            bindings = <&to 0>;
-            key-positions = <0 29>;
-        };
-
-        new_combo {
-            bindings = <&to 0>;
-            key-positions = <9 20>;
-        };
-
-        mc1 {
-            bindings = <&to 0>;
-            key-positions = <0 4>;
-        };
-
-        ED {
-            bindings = <&to 0>;
-            key-positions = <5 9>;
-        };
-
         monkeytype {
             bindings = <&to 4>;
             key-positions = <0 9>;
