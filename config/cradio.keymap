@@ -26,6 +26,12 @@
             bindings = <&to 4>;
             key-positions = <0 9>;
         };
+
+        layer_default {
+            bindings = <&none>;
+            key-positions = <31 32>;
+            layers = <0>;
+        };
     };
 
     keymap {
