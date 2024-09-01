@@ -34,9 +34,14 @@
             layers = <0>;
         };
 
-        reset {
+        reset_left {
             bindings = <&bootloader>;
-            key-positions = <8 1>;
+            key-positions = <20 24>;
+        };
+
+        reset_right {
+            bindings = <&bootloader>;
+            key-positions = <29 25>;
         };
     };
 
