@@ -35,7 +35,7 @@
         };
 
         reset {
-            bindings = <&sys_reset>;
+            bindings = <&bootloader>;
             key-positions = <8 1>;
         };
     };
