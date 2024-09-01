@@ -33,16 +33,6 @@
             key-positions = <31 32>;
             layers = <0>;
         };
-
-        reset_left {
-            bindings = <&bootloader>;
-            key-positions = <20 24>;
-        };
-
-        reset_right {
-            bindings = <&bootloader>;
-            key-positions = <29 25>;
-        };
     };
 
     keymap {
@@ -68,7 +58,7 @@
 
         symbols {
             bindings = <
-&none               &none      &none                &kp DE_LEFT_PARENTHESIS  &none             &none         &kp DE_RIGHT_PARENTHESIS  &none                 &none         &none
+&bootloader         &none      &none                &kp DE_LEFT_PARENTHESIS  &none             &none         &kp DE_RIGHT_PARENTHESIS  &none                 &none         &bootloader
 &kp DE_EXCLAMATION  &kp DE_AT  &mt LSHFT DE_HASH    &kp DE_PERCENT           &kp DE_AMPERSAND  &kp DE_CARET  &kp DE_DOLLAR             &mt LSHFT DE_STAR     &kp DE_MINUS  &kp DE_PLUS
 &kp DE_BACKSLASH    &none      &kp DE_LEFT_BRACKET  &kp DE_LEFT_BRACE        &kp DE_GRAVE      &kp DE_TILDE  &kp DE_RIGHT_BRACE        &kp DE_RIGHT_BRACKET  &none         &kp DE_EQUAL
                                                     &kp DE_SINGLE_QUOTE      &kp DE_SEMICOLON  &none         &none
