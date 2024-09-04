@@ -18,11 +18,6 @@
     combos {
         compatible = "zmk,combos";
 
-        Escape {
-            bindings = <&kp ESC>;
-            key-positions = <23 26>;
-        };
-
         monkeytype {
             bindings = <&to 4>;
             key-positions = <0 9>;
@@ -37,6 +32,16 @@
         terraria {
             bindings = <&to 4>;
             key-positions = <0 2>;
+        };
+
+        EscapeL {
+            bindings = <&kp ESCAPE>;
+            key-positions = <14 13>;
+        };
+
+        EscapeR {
+            bindings = <&kp ESCAPE>;
+            key-positions = <15 16>;
         };
     };
 
